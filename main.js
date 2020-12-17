@@ -62,6 +62,6 @@ sorenCoin.addBlock(new Block(6,"10/31/2000", { amount: 3 }))
 
  // sorenCoin.chain[1].data = { amount: 100 }; // this shows the security of shaw 256 if i change date of block 1
 
-//console.log('Is blockchain valid? ' + sorenCoin.isChainValid()); // show this to Steven
+//console.log('Is blockchain valid? ' + sorenCoin.isChainValid());
 
 console.log(JSON.stringify(sorenCoin, null, 4));
